@@ -14,6 +14,9 @@ header {
     align-items: center;
     padding: 30px 20px;
     background-color: black;
+    position: fixed;
+    width: 100%;
+    opacity: 0.75;
 }
 .logo {
     color: white;
@@ -43,7 +46,7 @@ nav a:hover {
 .home-content {
     padding: 50px 50px;
     background-color: rgb(255, 255, 255);
-    opacity: 0.45;
+    opacity: 0.75;
     border-radius: 30px;
     margin: 100px 0;
 }
@@ -82,12 +85,13 @@ nav a:hover {
     padding: 50px;
 }
 .contacts {
+    background-image: url('/assets/images/brains_chess_abilities.jpg.webp');
+    background-size: cover;
     display: flex;
     justify-content: center;
-
 }
 .contacts-contact {
-    padding: 300px 0;
+    padding: 180px 0;
 }
 .contacts-contact h1, li  {
     padding: 20px 0;
@@ -95,11 +99,11 @@ nav a:hover {
 .sign-up-section {
     display: flex;
     justify-content: center;
-    padding: 400px;
+    padding: 300px;
     font-weight: 600;
     font-size:25px;
-    background: black;
-
+    background-image: url('/assets/images/1410819.78064b77.5000x5000o.d900f3f1ba32.jpg');
+    background-size: cover;
 }
 .sign-up h1 {
     color: white;
