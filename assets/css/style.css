@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 * {
     padding:0;
     margin:0;
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -34,12 +35,17 @@ nav a:hover {
     color: red;
 }
 .home {
+    background-image: url("/assets/images/24256.f446db09.668x375o.a367c450ba18@2x.jpeg");
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .home-content {
-    padding: 150px 50px;
+    padding: 50px 50px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.45;
+    border-radius: 30px;
+    margin: 100px 0;
 }
 .btn-1 {
     background-color: black;
@@ -81,12 +87,39 @@ nav a:hover {
 
 }
 .contacts-contact {
-    padding: 20px 0;
+    padding: 300px 0;
 }
 .contacts-contact h1, li  {
     padding: 20px 0;
 }
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    padding: 400px;
+    font-weight: 600;
+    font-size:25px;
+    background: black;
 
+}
+.sign-up h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.sign-up-form {
+    background: rgb(181, 178, 178);
+    border-radius: 40px;
+    padding: 50px;
+    opacity: 0.75;
+    color: rgb(70, 69, 69);
+    transition: .5s;
+}
+.sign-up-form:hover {
+
+    color: rgb(255, 254, 254);
+    text-shadow: 0 0 25px rgb(128, 128, 128),
+                0 0 50px rgb(198, 197, 196);
+}
 footer {
     display: flex;
     justify-content: center;
@@ -95,4 +128,20 @@ footer {
 .icons i {
     padding: 0 20px;
     color: white;
+    transition: .5s;
+}
+
+.icons #youtube:hover{
+    color: red;
+}
+
+.icons #twitter:hover{
+    color: rgb(102, 184, 202);
+}
+.icons #facebook:hover{
+    color: rgb(98, 148, 255);
+}
+
+.icons #instagram:hover{
+    color: rgb(181, 72, 163);
 }
