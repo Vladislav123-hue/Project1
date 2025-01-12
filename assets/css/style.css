@@ -112,7 +112,7 @@ nav a:hover {
     background: rgb(181, 178, 178);
     border-radius: 40px;
     padding: 50px;
-    opacity: 0.75;
+    opacity: 0.85;
     color: rgb(70, 69, 69);
     transition: .5s;
 }
