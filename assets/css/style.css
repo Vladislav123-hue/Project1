@@ -42,6 +42,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
 .home-content {
     padding: 50px 50px;
