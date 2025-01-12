@@ -13,8 +13,6 @@ header {
     align-items: center;
     padding: 30px 20px;
     background-color: black;
-
-
 }
 .logo {
     color: white;
@@ -37,12 +35,11 @@ nav a:hover {
 }
 .home {
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 30px;
 }
-.home-image img {
-    width: 500px;
-    border-radius: 50%;
+.home-content {
+    padding: 150px 50px;
 }
 .btn-1 {
     background-color: black;
@@ -60,36 +57,42 @@ nav a:hover {
     text-shadow: 0 0 25px orangered,
                 0 0 50px orangered;       
 }
-.btn-2 {
-    background-color: white;
-    color: black;
-    border-radius: 40px;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    transition: .5s;
-    margin-top:10px;
-
-}
-.btn-2:hover {
-    transform: scale(1.1);
-    background-color: rgb(62, 61, 61);
-    text-shadow: 0 0 25px orangered,
-                0 0 50px orangered;  
-    color: white;     
-}
 .about-us {
     background: black;
     color: white;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 30px;
 }
-
+.about-us-image {
+    padding: 150px 50px;
+}
 .about-us-image img {
     width: 500px;
     border-radius: 50%; 
 }
+.about-us-content {
+    width: 700px;
+    padding: 50px;
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+
+}
+.contacts-contact {
+    padding: 20px 0;
+}
+.contacts-contact h1, li  {
+    padding: 20px 0;
+}
+
 footer {
-    background-color: rgb(255, 252, 252);
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.icons i {
+    padding: 0 20px;
+    color: white;
 }
