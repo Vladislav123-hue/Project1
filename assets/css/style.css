@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 * {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
     font-family: 'Fjalla One', sans-serif;
+}
+
+header #toggle-menu {
+    display: none;
 }
 
 header {
@@ -18,25 +23,35 @@ header {
     width: 100%;
     opacity: 0.75;
 }
+
+header #hidden-icon {
+    color: white;
+    display: none;
+}
+
 .logo {
     color: white;
     font-weight: 600;
-    font-size:25px;
+    font-size: 25px;
     transition: .5s;
 }
+
 .logo:hover {
     color: red;
     transform: scale(1.1);
 }
+
 nav a {
     color: white;
     padding: 0 20px;
     transition: .5s;
     font-weight: 600;
 }
+
 nav a:hover {
     color: red;
 }
+
 .home {
     background-image: url("/assets/images/24256.f446db09.668x375o.a367c450ba18@2x.jpeg");
     display: flex;
@@ -44,6 +59,7 @@ nav a:hover {
     align-items: center;
     background-size: cover;
 }
+
 .home-content {
     padding: 50px 50px;
     background-color: rgb(255, 255, 255);
@@ -51,6 +67,7 @@ nav a:hover {
     border-radius: 30px;
     margin: 100px 0;
 }
+
 .btn-1 {
     background-color: black;
     color: white;
@@ -59,14 +76,16 @@ nav a:hover {
     font-weight: 600;
     letter-spacing: 2px;
     transition: .5s;
-    margin-top:10px;
+    margin-top: 10px;
 }
+
 .btn-1:hover {
     transform: scale(1.1);
     background-color: rgb(62, 61, 61);
     text-shadow: 0 0 25px orangered,
-                0 0 50px orangered;       
+        0 0 50px orangered;
 }
+
 .about-us {
     background: black;
     color: white;
@@ -74,41 +93,51 @@ nav a:hover {
     justify-content: center;
     align-items: center;
 }
+
 .about-us-image {
     padding: 150px 50px;
 }
+
 .about-us-image img {
     width: 500px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
+
 .about-us-content {
     width: 700px;
     padding: 50px;
 }
+
 .contacts {
     display: flex;
     justify-content: center;
 }
+
 .contacts-contact {
     padding: 130px 0;
 }
-.contacts-contact h1, li  {
+
+.contacts-contact h1,
+li {
     padding: 20px 0;
 }
+
 .sign-up-section {
     display: flex;
     justify-content: center;
-    padding: 300px;
+    padding: 150px;
     font-weight: 600;
-    font-size:25px;
+    font-size: 25px;
     background-image: url('/assets/images/1410819.78064b77.5000x5000o.d900f3f1ba32.jpg');
     background-size: cover;
 }
+
 .sign-up h1 {
     color: white;
     display: flex;
     justify-content: center;
 }
+
 .sign-up-form {
     background: rgb(181, 178, 178);
     border-radius: 40px;
@@ -117,38 +146,195 @@ nav a:hover {
     color: rgb(70, 69, 69);
     transition: .5s;
 }
+
 .sign-up-form:hover {
 
     color: rgb(255, 254, 254);
     text-shadow: 0 0 25px rgb(128, 128, 128),
-                0 0 50px rgb(198, 197, 196);
+        0 0 50px rgb(198, 197, 196);
 }
+
 footer {
     display: flex;
     justify-content: center;
     background-color: gray;
 }
+
 .icons i {
     padding: 0 20px;
     color: white;
     transition: .5s;
 }
 
-.icons #youtube:hover{
+.icons #youtube:hover {
     color: red;
 }
 
-.icons #twitter:hover{
+.icons #twitter:hover {
     color: rgb(102, 184, 202);
 }
-.icons #facebook:hover{
+
+.icons #facebook:hover {
     color: rgb(98, 148, 255);
 }
 
-.icons #instagram:hover{
+.icons #instagram:hover {
     color: rgb(181, 72, 163);
 }
+
 #sign-up-button {
     border-radius: 100px;
+
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        display: flex;
+        justify-content: flex-start;
+        background: white;
+        position: relative;
+    }
+
+    header .logo {
+        display: none;
+    }
+
+    header #hidden-icon {
+        color: rgb(0, 0, 0);
+        display: block;
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    header #toggle-menu:checked~nav {
+        display: block;
+    }
+
+    header #toggle-menu {
+        display: none;
+    }
+
+    nav {
+        position: absolute;
+        background-color: white;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        left: -10px;
+        z-index: 99;
+        display: none;
+        width: 100%;
+        opacity: 1;
+    }
+
+    nav a {
+        color: black;
+    }
+
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-content {
+        background-color: transparent;
+        padding: 50px 50px;
+        border-radius: 30px;
+        margin: 100px 0;
+        color: white;
+        opacity: 1;
+    }
+
+    .btn-1 {
+        background: linear-gradient(#bebebe, #515151);
+        color: rgb(252, 249, 249);
+        border-radius: 10px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        opacity: 1;
+    }
+
+    .about-us {
+        background-image: url('/assets/images/phpbgZJn0.jpg');
+        justify-content: center;
+    }
+
+    .about-us-content {
+        padding: 50px;
+        margin: 40px 40px;
+        background-color: gray;
+        border-radius: 40px;
+        opacity: 0.8;
+    }
+
+    .about-us-image img {
+        display: none;
+        position: absolute;
+    }
+
+    .contacts {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0, 5px;
+        margin: 0, 5px;
+    }
+
+    .contacts-contact h1,
+    li {
+        padding: 0px 20px;
+    }
+
+    #details {
+        display: none;
+    }
+
+    .sign-up-section {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 25px;
+        background-image: none !important; 
+        background: black;
+        
+    }
     
+    .sign-up h1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .sign-up-form {
+        
+        background: transparent;
+        border-radius: 40px;
+        opacity: 1;
+        color: rgb(70, 69, 69);
+        padding: 0;
+
+    }
+
+    .username #username {
+
+        display: none;
+    }
+
+    .password #password {
+
+        display: none;
+    }
+
+    .sign-up-form #sign-up-icon{
+
+        display: none;
+    }
+
+    .sign-up-form p {
+
+        display: none;
+    }
 }
