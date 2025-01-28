@@ -186,10 +186,9 @@ li {
 }
 
 .sign-up-form {
-    background: rgb(181, 178, 178);
+    background: rgba(181, 178, 178, 0.9); 
     border-radius: 40px;
     padding: 50px;
-    opacity: 0.85;
     color: rgb(70, 69, 69);
     transition: .5s;
 }
@@ -311,9 +310,9 @@ footer {
     .about-us-content {
         margin: 10px;
         padding: 20px 5px;
-        background-color: gray;
+        background-color: rgba(181, 178, 178, 0.7);
         border-radius: 40px;
-        opacity: 0.8;
+        color: rgb(61, 61, 61);
     }
 
     .about-us-image {
