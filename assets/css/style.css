@@ -12,7 +12,7 @@
 i {
     padding: 0 5px;
 }
-
+/*hidden checkbox for activating the navbar, working on mobile version*/
 header #toggle-menu {
     display: none;
 }
@@ -27,7 +27,7 @@ header {
     width: 100%;
     opacity: 0.75;
 }
-
+/*burger-menu icon for mobile version*/
 header #hidden-icon {
     color: white;
     display: none;
@@ -121,7 +121,7 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
 }
-
+/*The title of the services&prices section*/ 
 #sp-title {
     padding: 50px 0;
     font-size: 40px;
@@ -244,7 +244,7 @@ footer {
     header .logo {
         display: none;
     }
-
+    /*burger menu*/
     header #hidden-icon {
         color: rgb(0, 0, 0);
         display: block;
@@ -261,17 +261,15 @@ footer {
         z-index: 99;
         opacity: 1;
     }
-
+    /*once checkbox is clicked, the dropdown menu appears*/
+   
+    header #toggle-menu {
+        display: none;
+    }
     header #toggle-menu:checked~nav {
         display: flex;
         flex-direction: column;
     }
-
-    header #toggle-menu {
-        display: none;
-    }
-
- 
 
     nav a {
         color: black;
@@ -335,7 +333,7 @@ footer {
         padding: 0, 5px;
         margin: 0, 5px;
     }
-
+    /*padding between the lines of the contact info*/
     .contacts-contact h1,
     li {
         padding: 0px 20px;
@@ -374,11 +372,6 @@ footer {
     }
 
     .username #username {
-
-        display: none;
-    }
-
-    .password #password {
 
         display: none;
     }
