@@ -124,7 +124,7 @@ nav a:hover {
 
 #sp-title {
     padding: 50px 0;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .services-prices {
@@ -252,26 +252,26 @@ footer {
         font-size: 25px;
     }
 
+    nav {
+        position: absolute;
+        background-color: white;
+        top: 85px;
+        display: none;
+        left: -10px;
+        z-index: 99;
+        opacity: 1;
+    }
+
     header #toggle-menu:checked~nav {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     header #toggle-menu {
         display: none;
     }
 
-    nav {
-        position: absolute;
-        background-color: white;
-        top: 85px;
-        display: flex;
-        flex-direction: column;
-        left: -10px;
-        z-index: 99;
-        display: none;
-        width: 100%;
-        opacity: 1;
-    }
+ 
 
     nav a {
         color: black;
