@@ -75,7 +75,7 @@ nav a:hover {
         align-items: center;
 
 }
-
+/*"Apply to a program" button that leads to the sign up section*/
 .btn-1 {
     background-color: black;
     color: white;
@@ -85,6 +85,7 @@ nav a:hover {
     letter-spacing: 2px;
     transition: .5s;
     margin-top: 10px;
+    padding: 15px;
 }
 
 .btn-1:hover {
@@ -200,6 +201,12 @@ li {
         0 0 50px rgb(198, 197, 196);
 }
 
+.sign-up-button {
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -226,11 +233,6 @@ footer {
 
 .icons #instagram:hover {
     color: rgb(181, 72, 163);
-}
-
-#sign-up-button {
-    border-radius: 100px;
-
 }
 
 @media screen and (max-width: 767px) {
