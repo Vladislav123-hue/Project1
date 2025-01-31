@@ -77,8 +77,8 @@ nav a:hover {
 
 }
 /*"Apply to a program" button that leads to the sign up section*/
-.btn-1 {
-    background-color: black;
+#btn-1 {
+    background-color: rgb(163, 161, 161);
     color: white;
     border-radius: 40px;
     font-size: 20px;
@@ -89,7 +89,7 @@ nav a:hover {
     padding: 15px;
 }
 
-.btn-1:hover {
+#btn-1:hover {
     transform: scale(1.1);
     background-color: rgb(62, 61, 61);
     text-shadow: 0 0 25px orangered,
@@ -131,7 +131,7 @@ nav a:hover {
 
 .services-prices {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -342,7 +342,7 @@ footer {
         padding: 0px 20px;
     }
 
-    #details {
+    .details {
         display: none;
     }
 
