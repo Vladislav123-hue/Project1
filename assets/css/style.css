@@ -333,8 +333,8 @@ footer {
     .contacts {
         display: flex;
         justify-content: flex-start;
-        padding: 0, 5px;
-        margin: 0, 5px;
+        padding: 0 5px;
+        margin: 0 5px;
     }
     /*padding between the lines of the contact info*/
     .contacts-contact h1,
