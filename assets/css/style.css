@@ -48,7 +48,7 @@ header #hidden-icon {
 
 nav a {
     color: white;
-    padding: 0 20px;
+    padding: 0 10px;
     transition: .5s;
     font-weight: 600;
 }
