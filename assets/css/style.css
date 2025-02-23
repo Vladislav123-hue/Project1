@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 .home {
-    background-image: url("../../assets/images/24256.f446db09.668x375o.a367c450ba18@2x.jpeg");
+    background-image: url("../../assets/images/home-picture.jpeg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +176,7 @@ li {
     padding: 150px;
     font-weight: 600;
     font-size: 25px;
-    background-image: url('../../assets/images/1410819.78064b77.5000x5000o.d900f3f1ba32.jpg');
+    background-image: url('../../assets/images/sign-up-picture.jpg');
     background-size: cover;
 }
 
@@ -241,6 +241,7 @@ footer {
         justify-content: flex-start;
         background: white;
         position: relative;
+        position: fixed;
     }
 
     header .logo {
@@ -255,13 +256,13 @@ footer {
     }
 
     nav {
-        position: absolute;
         background-color: white;
         top: 85px;
         display: none;
         left: -10px;
         z-index: 99;
         opacity: 1;
+        position: fixed;
     }
     /*once checkbox is clicked, the dropdown menu appears*/
    
@@ -303,7 +304,7 @@ footer {
     }
 
     .about-us {
-        background-image: url('../../assets/images/phpbgZJn0.jpg');
+        background-image: url('../../assets/images/about-us-picture.jpg');
         justify-content: center;
     }
 
