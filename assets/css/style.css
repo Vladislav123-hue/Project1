@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px;
-    background-color: rgba(9, 8, 8, 0.8);
+    background-color: rgba(9, 8, 8, 0.9);
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -67,7 +67,6 @@ nav a:hover {
 .home-content {
     padding: 20px 20px;
     background-color: rgb(255, 255, 255);
-    opacity: 0.9;
     border-radius: 30px;
     margin: 150px 0;
     display: flex;
