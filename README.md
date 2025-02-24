@@ -1,131 +1,172 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Alt text](/assets/images/pasted-graphic.png)
+# TrainBrain - Chess Tutorial Website
 
-Welcome USER_NAME,
+## UX (User Experience)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Goals
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+**Visitor Goals**
+● **Learn Chess:** Access comprehensive tutorials to understand chess fundamentals and
+advanced strategies.
+● **Improve Skills:** Engage with interactive lessons to enhance gameplay.
+● **Connect with Community:** Find contact information to reach out for personalized coaching
+or join discussions.
+**Business Goals**
+● **Provide Quality Education:** Offer structured and accessible chess tutorials for all skill levels.
+● **Expand User Base:** Attract chess enthusiasts and beginners to build a vibrant learning
+community.
+● **Monetize Services:** Present premium services and training sessions to generate revenue.
+**User Stories**
 
-## Gitpod Reminders
+1. **As a beginner** , I want to find easy-to-understand tutorials so that I can learn the basics of
+    chess.
+2. **As an intermediate player** , I want to explore advanced strategies to improve my game.
+3. **As a user** , I want to contact the trainers for personalized coaching sessions.
+4. **As a visitor** , I want to understand the pricing of different services offered.
+5. **As a chess enthusiast** , I want to stay updated with the latest tutorials and news.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**Fonts**
+![Alt text](/assets/images/Welcome-to-TrainBrain!.png)
+**Primary Font:** 'Fjalla One', serif – chosen for its readability and classic appearance.
 
-`python3 -m http.server`
+**Icons**
+![Alt text](/assets/images/icons.png)
+Icons are sourced from the FontAwesome Icon library and implemented using the <i> tag as classes.
+This approach allows for easy customization through additional classes or IDs. Bootstrap classes
+were frequently used to maintain a consistent and responsive design. The icons are featured in the
+footer for social media links, enhancing navigation and accessibility.
 
-A blue button should appear to click: _Make Public_,
+## Features
 
-Another blue button should appear to click: _Open Browser_.
+The **TrainBrain** website provides essential functionalities that enhance the user experience and
+learning process. Below are the key features present on the site:
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+**Navigation Bar**
+![Alt text](/assets/images/navbar-desktop.png)
+![Alt text](/assets/images/navbar-mobile.png)
+● A **responsive navbar** that transforms into a **hamburger menu** on smaller screens for easy
+access.
+● Includes links to essential pages: **Home, About Us, Services & Prices, Contacts, and Sign
+Up**.
+● Clear and intuitive design ensures smooth navigation across the website.
+**Homepage**
+![Alt text](/assets/images/homepage-desktop.png)
+![Alt text](/assets/images/homepage-mobile.png)
+● A **welcome message** introducing visitors to TrainBrain.
+● A **hero image** featuring chess elements to create an engaging first impression.
+● Provides an overview of the website’s purpose and available learning resources.
 
-A blue button should appear to click: _Make Public_,
+**About Us Page**
+![Alt text](/assets/images/about-us-desktop.png)
+![Alt text](/assets/images/homepage-mobile.png)
 
-Another blue button should appear to click: _Open Browser_.
+● Details about the **mission and purpose** of TrainBrain.
+● Explains how the platform helps users improve their chess skills.
+**Services & Prices Page**
+![Alt text](/assets/images/services-prices-desktop.png)
+![Alt text](/assets/images/services-prices-mobile.png)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+● A structured **list of services** available on the website.
+● Displays the **pricing** for different chess training options.
 
-To log into the Heroku toolbelt CLI:
+**Contacts Page**
+![Alt text](/assets/images/contacts.png)
+● Displays **contact details** for users to reach out for more information.
+● May include **email, phone number, or other communication methods**.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**Sign-Up Page**
+![Alt text](/assets/images/sign-up-desktop.png)
+![Alt text](/assets/images/sign-up-mobile.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+● Allows users to **register** for an account.
+● May include a form for **name, email, and password** to create a user profile.
 
-### Connecting your Mongo database
+**Footer**
+![Alt text](/assets/images/icons.png)
+● The footer is **consistently present** on all pages.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+● Includes quick links to key sections for easy navigation.
+● Displays copyright information to indicate website ownership.
+● Helps users access important pages without scrolling back to the top.
+## Technologies Used
 
-------
+Here’s a list of the core technologies used to build the **TrainBrain** website:
+**Frontend:**
+● **HTML5** – Used to structure the content and create the overall layout of the website.
+● **CSS** – Responsible for styling the website and ensuring it looks visually appealing.
+● **Flexbox** – Used for responsive layout and ensuring the design adapts to different
+screen sizes.
+● **Media Queries** – Employed to handle responsiveness across various devices
+(desktop, tablet, mobile).
+**Libraries & Frameworks:**
+● **Font Awesome** – Provides a set of scalable vector icons that are easily customizable (used
+in the navbar, footer, and other sections).
+**Version Control:**
+● **Git** – Used for version control to track and manage changes in the project.
+● **GitHub** – Hosted the code repository and provides a platform for collaboration and version
+history.
+**Hosting & Deployment:**
+● **GitHub Pages** – Used for free static website hosting, allowing easy deployment of the
+TrainBrain website directly from the GitHub repository.
 
-## Release History
+## Testing
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Methods**
+● **Validation**
+● HTML has been validated with the W3C HTML5 Validator.
+![Alt text](/assets/images/w3c-html.png)
+● CSS has been validated with the W3C CSS Validator and auto-prefixed using **CSSAutoprefixer**.
+![Alt text](/assets/images/css-test.png)
+● Accessibility was tested with DevTools Lighthouse:
+![Alt text](/assets/images/accessibility.png)
+**General Testing**
+● Each feature was developed and tested in its own branch before being merged with the
+**master** branch. After merging, branches were subsequently deleted.
+● After each feature addition, all the functions were tested to ensure there was no impact on
+existing functionality.
+● All **forms** have validation and will not submit without the correct information (e.g., email
+format, password strength).
+![Alt text](/assets/images/forms-submission.png)
+● A **.gitignore** file has been included to prevent commits of system files.
+● External links are set to **open in a new tab** to avoid losing the user’s place on the website.
+**Mobile Testing**
+● I tested the site personally on my **Android** device, navigating through the entire site, checking
+buttons, functions, and other key features.
+● The site was also tested by friends and relatives on various devices, including **iOS** devices.
+● **Google Chrome** ’s **mobile inspection mode** was used to simulate the mobile experience
+and test all features across pages and functions.
+**Desktop Testing**
+● The site was primarily developed on a **Chromebook** , so most of the testing was done on
+**Google Chrome**.
+● The site was tested by friends and relatives on a range of **desktop devices**.
+● **Firefox** and **Edge** browsers were also tested, though the site was mainly optimized for
+Chrome.
+● The site was **not tested on Internet Explorer** , as support for this browser is gradually being
+phased out.
 
-**June 18, 2024,** Add Mongo back into template
+## Bugs
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+**Fixed bugs**
 
-**May 28 2024:** Fix Mongo and Links installs
 
-**April 26 2024:** Update node version to 16
+● Services&prices section had to much padding, and i had to reduce it to remove to much free
+space on the right on the mobile version.
+● Links in the burger menu on mobile version overlapped because of a big margin, i reduced it
+and align them vertically.
+**Unfixed bugs**
+None
 
-**September 20 2023:** Update Python version to 3.9.17.
+## Deployment
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+● The site was developed to GitHub pages. The steps to deploy are as follows.
+● In the Github repository navigate to the settings tab
+● From the source section drop-down menu, select the Master Branch
+● Once the master branch has been selected, the page provided the link to the completed
+website.
+The Link is here [TrainBrain](https://vladislav123-hue.github.io/Project1/)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Credits
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+**Media**
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+The pictures are taken from the following website: [Chess](https://www.chess.com/news/view/russia-china-win-world-team-championships-with-round-to-spare)
