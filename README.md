@@ -43,9 +43,6 @@ community.
 ![Alt text](/assets/images/icons.png)
 
 Icons are sourced from the FontAwesome Icon library and implemented using the <i> tag as classes.
-This approach allows for easy customization through additional classes or IDs. Bootstrap classes
-were frequently used to maintain a consistent and responsive design. The icons are featured in the
-footer for social media links, enhancing navigation and accessibility.
 
 ## Features
 
