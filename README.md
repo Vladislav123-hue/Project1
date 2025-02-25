@@ -33,11 +33,15 @@ community.
 5. **As a chess enthusiast** , I want to stay updated with the latest tutorials and news.
 
 **Fonts**
+
 ![Alt text](/assets/images/Welcome-to-TrainBrain!.png)
+
 **Primary Font:** 'Fjalla One', serif – chosen for its readability and classic appearance.
 
 **Icons**
+
 ![Alt text](/assets/images/icons.png)
+
 Icons are sourced from the FontAwesome Icon library and implemented using the <i> tag as classes.
 This approach allows for easy customization through additional classes or IDs. Bootstrap classes
 were frequently used to maintain a consistent and responsive design. The icons are featured in the
@@ -169,8 +173,12 @@ CSS has been validated with the W3C CSS Validator and auto-prefixed using **CSSA
 
 **General Testing**
 
-● After each feature addition, all the functions were tested to ensure there was no impact on
-existing functionality.
+● I tested it in different browsers Safari, Google Chrome.
+
+● I made sure the website's responsiveness
+
+● All the website's sections are readable and easy to understand
+
 
 ● All **forms** have validation and will not submit without the correct information (e.g., email
 format, password strength).
@@ -178,22 +186,6 @@ format, password strength).
 ![Alt text](/assets/images/forms-submission.png)
 
 ● External links are set to **open in a new tab** to avoid losing the user’s place on the website.
-
-**Mobile Testing**
-
-● I tested the site personally on my **Android** device, navigating through the entire site, checking
-buttons, functions, and other key features.
-● The site was also tested by friends and relatives on various devices, including **iOS** devices.
-● **Google Chrome** ’s **mobile inspection mode** was used to simulate the mobile experience
-and test all features across pages and functions.
-**Desktop Testing**
-● The site was primarily developed on a **Chromebook** , so most of the testing was done on
-**Google Chrome**.
-● The site was tested by friends and relatives on a range of **desktop devices**.
-● **Firefox** and **Edge** browsers were also tested, though the site was mainly optimized for
-Chrome.
-● The site was **not tested on Internet Explorer** , as support for this browser is gradually being
-phased out.
 
 ## Bugs
 
@@ -205,9 +197,13 @@ space on the right on the mobile version.
 ● Links in the burger menu on mobile version overlapped because of a big margin, i reduced it
 and align them vertically.
 
+● DevTools helped me to understand the problem
+
 **Unfixed bugs**
 
-None
+Services&prices section on Safari is to extended
+
+![Alt text](/assets/images/unfixed-bug.png)
 
 ## Deployment
 
